@@ -1,0 +1,101 @@
+{
+    "collection": [
+    {
+        "album": "30",
+        "artist": "Adele",
+        "year": 2021,
+        "cover": "adele.jpg",
+        "genre":["Pop", "Soul"],
+        "description":"30 is Adele's fourth studio album, released in 2021. It's a pop, soul, and jazz record that also incorporates R&B, gospel, and dance-pop."
+    },
+    {
+        "album": "AM",
+        "artist": "Arctic Monkeys",
+        "year": 2013,
+        "cover":"arctic.jpg",
+        "genre":["Rock", "Pop Rock"],
+         "description":"Thematically, the album concerns frustration surrounding tainted romance and loneliness."
+        
+    }, 
+    {
+        "album": "Harry's House",
+        "artist": "Harry Styles",
+        "year": 2022,
+        "cover":"harry.jpg",
+        "genre":["Pop", "Pop Rock"],
+        "description":"The album was largely written and recorded during 2020 and 2021 and has been noted as Styles' most introspective work."
+
+    }, 
+    {
+        "album": "Hit me hard and soft",
+        "artist": "Billie Eilish",
+        "year": 2024,
+        "cover":"hmhas.jpg",
+        "genre":["Pop"],
+        "description":"It was released in 2024 and was praised by critics for its melodies, lyrics, and emotional impact."
+    }, 
+    {
+        "album": "Take me to the church",
+        "artist": "Hozier",
+        "year": 2014,
+        "cover":"hozier.jpg",
+        "genre":["Blues", " Soul"],
+        "description": "His music primarily draws from folk, soul and blues, often using religious and literary themes and taking political or social justice stances."
+
+    }, 
+    {
+        "album": "The Queen is Dead",
+        "artist": "The Smiths",
+        "year": 1986,
+        "cover":"smiths.jpg",
+        "genre":["Rock"],
+        "description": "A heavier, more guitar-driven sound than previous Smiths albums, with complex and layered guitar work by Johnny Marr."
+    }, 
+    {
+        "album": "Abbey Road",
+        "artist": "The Beatles",
+        "year": 1969,
+        "cover":"beatles1.jpeg",
+        "genre":["Rock"],
+        "description": "Abbey Road incorporates styles such as rock, pop, blues, and progressive rock, and makes prominent use of the Moog synthesiser and guitar played through a Leslie speaker unit."
+    }, {
+        "album": "Let It Be",
+        "artist": "The Beatles",
+        "year": 1970,
+        "cover":"beatles2.png",
+        "genre":["Rock", "Blues"],
+        "description": "\"Let It Be\" is a song by The Beatles that conveys a message of acceptance and hope."
+    }, 
+    {
+        "album": "Ary Lobo 1958-1966",
+        "artist": "Ary Lobo",
+        "year": 2023,
+        "cover":"aryLobo.jpg",
+        "genre":["Baião", "Coco"],
+        "description": "All these recordings are wonderful road trips taking the listener through the various regions of Brazil."
+    }, 
+    {
+        "album": "Danado de Bom",
+        "artist": "Luiz Gonzaga",
+        "year": 1981,
+        "cover":"luizGonzaga.jpeg",
+        "genre":["Forró", "Baião"],
+        "description":"\"Danado de Bom\" is a live album by renowned Brazilian musician Luiz Gonzaga, considered a historic farewell concert capturing his career highlights with a stellar lineup of guest artists like Elba Remalho performing a celebration of his \"Baiao\" music style, recorded for Net Globe television in May 1984."
+    }, 
+    {
+        "album": "Caetano Veloso",
+        "artist": "Caetano Veloso",
+        "year": 2006,
+        "cover":"caetanoVeloso.jpg",
+        "genre":["MPB", "Tropicalia"],
+        "description": "Veloso has been called \"one of the greatest songwriters of the century\" and a pop musician/poet/filmmaker/political activist."
+    }, 
+    {
+        "album": "Feeling Good: her greatest hits",
+        "artist": "Nina Simone",
+        "year": 2022,
+        "cover":"ninaSimone.jpeg",
+        "genre":["Jazz", "Blues"],
+        "description":"This new album gathers the most iconic songs recorded throughout Nina Simone's career and includes 7 remixes by some of the hottest, in-demand DJ's worldwide."
+    }]
+}

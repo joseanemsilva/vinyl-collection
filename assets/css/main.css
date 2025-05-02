@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:ital,wght@0,834;1,834&family=Prata&family=Questrial&family=Rowdies&display=swap');
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .collection {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info h3 {
+        margin-top: 0;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "Questrial", serif;
+    background-color: #F5EED9;
+}
+
+.welcome {
+    position: relative;
+    font-family: "Comfortaa", sans-serif;
+    color: #F5EED9;
+    text-shadow: #17131C 4px 4px 5px;
+    padding: 50px 20px;
+}
+
+.welcome-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#nav-links {
+    width: 80%;
+    margin: auto;
+}
+
+.vinyl-name {
+    font-size: 18px;
+    color: white;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+#search {
+    grid-column: 4;
+    justify-content: end;
+    padding: 8px;
+    border: #17131C 1px solid;
+    border-radius: 5px;
+}
+
+.info ul {
+    list-style: none;
+    text-align: center;
+}
+
+.info h3 {
+    margin-bottom: 0;
+}
+
+hr {
+    border: 2px solid #997E66;
+    border-radius: 5px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.collection article {
+    background-color: #997E66;
+    border-radius: 10px;
+
+}
+
+.vinyl-cover {
+    height: 220px;
+    padding: 15px;
+    margin: auto;
+    display: block;
+}
+
+.collection p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 3px;
+}
+
+footer {
+    background-color: #17131C;
+}
+
+.copyright {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#sign-up {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+
+
+}
+
+#sign-up h2 {
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    color: #17131C;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#signup-form label {
+    font-size: 18px;
+    color: #17131C;
+}
+
+#signup-form input {
+    padding: 10px;
+    border: 2px solid #17131C;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#signup-form button {
+    padding: 10px;
+    background-color: #17131C;
+    color: #F5EED9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signup-form button:hover {
+    background-color: #997E66;
+}
+
+#error-message {
+    color: red;
+    display: none;
+}
+
+/* Style for the article section to be changed with setupOverlay() function on JS file*/
+article {
+    position: relative;
+}
+
+.vinyl-cover {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 10px;
+}
+
+.vinyl-description {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    width: 80%;
+}
